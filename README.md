@@ -68,7 +68,10 @@ Log in to accounts.google.com
 After that, open the Dev Tools window and navigate to the Storage tab (Shift + F9 on Firefox) (It's called "Application" on Chrome)
 If you don't know how to open it, just right-click anywhere and click "Inspect Element".
 Then you'll find every cookie you need, including the 4 ones.
-cookies
+
+![1](https://user-images.githubusercontent.com/62492737/118133394-6a472c80-b41e-11eb-9b33-462d5f952f44.png)
+
+
 
 🛡️ Protecting yourself
 Regarding the collection of metadata from your Google Photos account:
@@ -76,16 +79,23 @@ Regarding the collection of metadata from your Google Photos account:
 Given that Google shows "X require access" on your Google Account Dashboard, you might imagine that you had to explicitly authorize another account in order for it to access your pictures; but this is not the case.
 Any account can access your AlbumArchive (by default):
 
+![2](https://user-images.githubusercontent.com/62492737/118133437-77641b80-b41e-11eb-8766-f91be70d98b9.jpg)
+
+
+
 account-dashboard
 
 Here's how to check and fix the fact that you're vulnerable (wich you most likely are):
 Go to https://get.google.com/albumarchive/ while logged in with your Google account. You will be automatically redirected to your correct albumarchive URL (https://get.google.com/albumarchive/YOUR-GOOGLE-ID-HERE). After that, click the three dots on the top left corner, and click on setting
 
-three-dots-setting
+![3](https://user-images.githubusercontent.com/62492737/118133536-95318080-b41e-11eb-942f-baad9a7bd4b4.jpg)
+
 
 Then, un-check the only option there:
 
 setting
+
+![4](https://user-images.githubusercontent.com/62492737/118133776-d7f35880-b41e-11eb-93dd-cca938314d2e.jpg)
 
 On another note, the target account will also be vulnerable if they have ever used Picasa linked to their Google account in any way, shape or form. For more details on this, read PinkDev1's comment on issue #10.
 For now, the only (known) solution to this is to delete the Picasa albums from your AlbumArchive.
