@@ -1,10 +1,9 @@
-from colorama import init, Fore, Back, Style
+import sys
+from common.colors import bannerblue, bannerblue2, W, Y, R, end
+
 
 def banner():
-    init()
-
-    banner = """
-
+    print("""%s
 ................................................................................
 ................................................................................
 ................................................................................
@@ -62,7 +61,21 @@ def banner():
 ................................................................................
 ...........................@ harsha69...........................................
 ................................................................................
-............................................................................."""
-
-
-    print(banner)
+................................................................................
+                                                      
+    %s# Coded By harsha69 -%s @pasyanthharsha      
+                                           %s"""
+          %
+          (bannerblue, bannerblue2,
+           W, bannerblue2, W, bannerblue2, W, bannerblue2,
+           W, bannerblue2, W, bannerblue2, W, bannerblue2,
+           W, bannerblue2, W, bannerblue2,
+           W, bannerblue2, W, bannerblue2,
+           W, bannerblue2, W, bannerblue2,
+           W, bannerblue2, W, bannerblue2,
+           W, bannerblue2,
+           W, bannerblue2, W, bannerblue2,
+           W, bannerblue2,
+           W, bannerblue2,
+           W, Y, end
+           ))
