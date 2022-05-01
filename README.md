@@ -60,7 +60,7 @@ If you don't have cookies stored (ex: first launch), you will be asked for the 4
 
 Then, you can run the tool like this:
 
-python hunt.py myemail@gmail.com
+python hunt.py upadrastaharsha09@gmail.com
 ⚠️ I suggest you make an empty account just for this or use an account where you never login because depending on your browser/location, re-logging in into the Google Account used for the cookies can deauthorize them.
 
 Where I find these 4 cookies ?
